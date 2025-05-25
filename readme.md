@@ -1,4 +1,5 @@
-# Interactive Yarn Project Reset Utility (`yarn-reset-repo.sh`)
+# yarn-reset-repo
+### Interactive Yarn Project Reset Utility 
 
 This Bash script provides an interactive and thorough way to clean Yarn (Classic and Modern/Berry) project artifacts recursively, it is especially helpful for monorepos with multiple `node_modules` directories. The script helps in resolving stubborn dependency issues or achieving a completely fresh state by selectively **deleting** `node_modules` directories, `yarn.lock`, Yarn's cache, PnP files, and other build artifacts.
 
